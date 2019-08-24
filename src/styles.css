@@ -1,0 +1,32 @@
+
+body {
+    background: #6441A4 ;
+    padding: 20px;
+}
+.App {
+    text-align: center;
+
+}
+
+h1 {
+    text-shadow: 1px 1px 2px white;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
+.card {
+    background-color: rgb(66, 41, 114);
+    padding: 10px;
+    display: block;
+    box-sizing: content-box;
+}
+.card-img-top {
+    margin: 2px;
+    width: min-content;
+    height: min-content;
+}
