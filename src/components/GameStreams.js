@@ -26,7 +26,7 @@ function GameStreams({ match, location }) {
             setStreamData(finalArray);
         };
         fetchData();
-    }, []);
+    });
     return (
         <div>
             <h1 className="text-center">{match.params.id} Streams</h1>

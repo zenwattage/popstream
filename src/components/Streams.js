@@ -26,7 +26,7 @@ function Stream() {
 
             let finalArray = dataArray.map(stream => {
                 stream.gameName = "";
-                gameNameArray.map(name => {
+                gameNameArray.foreach(name => {
                     if (stream.game_id === name.id) {
                         return (stream.gameName = name.name);
                     }
