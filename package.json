@@ -9,13 +9,15 @@
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
+    "serve": "^11.1.0",
     "shards-ui": "^3.0.0"
   },
   "scripts": {
-    "start": "npm start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild":"npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
