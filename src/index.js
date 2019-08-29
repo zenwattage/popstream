@@ -1,5 +1,8 @@
+// react is our framework for manipulating what you see on the screen. 
 import React from 'react';
+// react-dom is the doorway to the DOM and server renderers for React
 import ReactDOM from 'react-dom';
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Games from './components/Games';
 import Header from './components/Header';
@@ -10,6 +13,7 @@ import GameStreams from './components/GameStreams';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './styles.css';
+
 function App() {
     return (
         <Router>

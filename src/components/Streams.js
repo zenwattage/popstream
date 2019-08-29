@@ -49,9 +49,9 @@ function Stream() {
             <h1>Most Popular Live Streams</h1>
             <div className="row">
                 {channels.map(channel => (
-                    <div className="col-lg-4 col-md-6 col-sm-12 mt-5">
+                    <div className="col-lg-2 col-md-3 col-sm-6 mt-5" key={channel.id}>
                         <div className="card">
-                            <img className="card-img-top" src={channel.thumbnail_url} />
+                            <img className="card-img-top" src={channel.thumbnail_url} alt="stream card" />
                             <div className="card-body">
                                 <h3 className="card-title">{channel.user_name}</h3>
                                 <h5 className="card-text"> {channel.gameName}</h5>
@@ -63,6 +63,7 @@ function Stream() {
                                         href={"https://twitch.tv/" + channel.user_name}
                                         className="link"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         watch {channel.user_name}'s' stream
                                     </a>

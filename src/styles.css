@@ -3,6 +3,8 @@ body {
     background: #6441A4 ;
     padding: 20px;
 }
+
+
 .App {
     text-align: center;
 
@@ -27,6 +29,6 @@ h1 {
 }
 .card-img-top {
     margin: 2px;
-    width: min-content;
-    height: min-content;
+    width: fit-content;
+    height: ;
 }

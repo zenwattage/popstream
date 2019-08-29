@@ -1,8 +1,10 @@
 import axios from 'axios';
 
+const TWITCHAPIKEY = process.env.REACT_APP_API_KEY;
+
 let api = axios.create({
     headers: {
-        'Client-ID': 'API KEY'
+        'Client-ID':TWITCHAPIKEY
     }
 });
 
